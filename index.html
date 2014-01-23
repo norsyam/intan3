@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/syam.min.css" />
+<link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="css/jquery.mobile.structure.min.css" />
+		
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile.min.js"></script>
+
+</head>
+
+<body>
+<!--Page 1 -->
+<div data-role="page" id="page1">
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+	<center>
+	<h2>Selamat Datang</h2>
+	<img src="gambar/logo.jpg" style=""/> 
+	<h3>Web Mobile Rasmi TUDM</h3>
+	</center>
+	<a href="#page2" class="ui-btn ui-btn-inline">Sejarah</a>
+	<a href="#page3" class="ui-btn ui-btn-inline">Peranan</a>
+  </div>
+
+
+</div>
+
+<!--Page 2 -->
+<div data-role="page" id="page2">
+	<!--panel -->
+	<div data-role="panel" id="panel1" data-display="overlay">
+		<h3>Senarai Mukasurat ada dibawah</h3>
+		<br />
+		<ul data-role="listview">
+			<li><a href="luar1.html" data-transition="turn">Isi 1</a></li>
+			<li><a href="luar2.html" data-transition="turn">Isi 2</a></li>
+			<li><a href="luar3.html" data-transition="turn">Isi 3</a></li>
+		</ul>
+	</div>
+	<!--header -->
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Kembali">
+	<a href="#panel1" data-icon="bars" data-iconpos="notext">Menu</a>
+	<h3>Sejarah</h3>
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+	<h2>Permulaan</h2>
+	<img src="gambar/Penubuhan-TUDP-e1340153804922.png"/> 
+	<h3>Penubuhan</h3>
+	<p>Sejarah Tentera Udara Diraja Malaysia (TUDM) bermula apabila Ordinan Tentera Udara 
+	diluluskan oleh Parlimen pada hari Isnin, 2 Jun 1958 dan semasa ditubuhkan ia 
+	dikenali sebagai <strong>Tentera Udara Diraja Persekutuan</strong>.
+	<p />
+	
+	<a href="#pop1" class="ui-btn ui-btn-inline" data-rel="popup" data-transition="pop">Visi & Misi</a>
+	<div data-role="popup" id="pop1" data-dismissible="false" style="max-width:400px;">
+		<div data-role="header">
+			<h3>Visi & Misi</h3>
+		</div>
+		<div role="main" class="ui-content">
+			<h3>Visi</h3>
+			<p>Kuasa Udara yang Unggul</p>
+			<h3>Misi</h3>
+			<p>Untuk Mempertahankan Kedaulatan Dan Keutuhan Negara Serta Kepentingannya Melalui Penggunaan Kuasa Udara Yang Berkesan
+			</p>
+			<a href="#" class="ui-btn ui-corner-all ui-shadow" data-rel="back">Kembali</a>
+			<a href="#page3" class="ui-btn ui-corner-all ui-shadow" data-transition="flow">Peranan</a>
+
+		</div>
+	</div>
+
+	
+	
+	
+	
+	<a href="#page3" class="ui-btn ui-btn-inline">Peranan</a>
+	<img src="gambar/AVR-Johnston.jpg"/> 
+	<p>
+	Air Commodore A.V.R. Johnstone seorang pegawai Tentera Udara Diraja British (RAF) telah dipinjamkan untuk menjadi penasihat kepada kerajaan Persekutuan Tanah Melayu dan kemudiannya telah dilantik menjadi Ketua Turus Tentera Udara yang pertama.
+	</p>
+	<p>
+	Beliau bertanggungjawab merangka penubuhan Tentera Udara Diraja Persekutuan bagi negara yang baru merdeka dari segi organisasi, sumber manusia, aset dan syarat-syarat perkhidmatan. Sebagai angkatan yang termuda di dalam Angkatan Tentera ketika itu anggota terawalnya adalah terdiri daripada pegawai dan anggota yang dipinjamkan daripada Tentera Udara Diraja British.
+	</p>
+	
+	<a href="#page3" class="ui-btn" data-transition="turn">Peranan</a>
+	
+  </div>
+  
+  <!--footer -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+		<ul>
+			<li><a href="#" data-icon="grid" class="ui-btn-active ui-state-persist">Sejarah</a></li>
+			<li><a href="#page3" data-icon="star">Peranan</a></li>
+			<li><a href="#page4" data-icon="gear">Direkrori</a></li>
+		</ul>
+	</div>
+  </div>
+
+</div>
+
+<!--Page 3 -->
+<div data-role="page" id="page3">
+	<!--header -->
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Kembali">
+
+	<h3>Peranan</h3>
+	
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+	<p>Matlamat TUDM secara menyeluruh ialah untuk menyediakan, mengendali dan menggerakkan satu angkatan udara yang sentiasa bersedia dan berkemampuan untuk menonjolkan kekuatan kuasa udara demi memelihara dan menjaga kepentingan negara.  Sebagai salah satu elemen pertahanan di dalam Angkatan Tentara Malaysia, TUDM berperanan untuk melaksanakan tugas-tugas berikut:
+	</p>
+	<div data-role="collapsible-set">
+		<div data-role="collapsible" data-collapsed="false">
+			<h4>Pengawalan Ruang Angkasa</h4>
+			<p>Utuk digunakan bagi tujuan damai disamping menghalang penggunaannya oleh pihak musuh.  Ia mepbatkan “offensive airstrike“, “defensive counter-air” dan operasi “defensive suppressive“.
+			</p>
+		</div>
+		<div data-role="collapsible">
+			<h4>Aplikasi Kekuatan</h4>
+			<p>Bagi menangani ancaman di permukaan sama ada di bumi ataupun di udara.  Ia melibatkan serangan strategik, operasi dan serangan maritim.
+			</p>
+		</div>
+		<div data-role="collapsible">
+			<h4>Peningkatan Kekuatan</h4>
+			<p>Bagi menambahkan keupayaan di udara dan di darat yang melibatkan misi pengisian minyak di udara, pengawasan dan tinjauan, misi mengangkut, “electronik counter measure” dan operasi menyelamat kombat udara.
+			</p>
+		</div>
+		<div data-role="collapsible">
+			<h4>Ketahanan Kekuatan</h4>
+			<p>Untuk melaksanakan operasi dengan jayanya. Ia melibatkan pertahanan pangkalan, sokongan logistik dan sokongan pangkalan bagi memberi perkhidmatan penting kepada organisasi dan anggota.
+			</p>
+		</div>
+	</div>
+	
+	<ul data-role="listview" data-inset="true">
+		<li>Pengawalan Ruang Angkasa untuk digunakan bagi tujuan damai disamping menghalang penggunaannya oleh pihak musuh.  Ia melibatkan “offensive airstrike“, “defensive counter-air” dan operasi “defensive suppressive“.
+		</li>
+
+		<li>Aplikasi Kekuatan bagi menangani ancaman di permukaan sama ada di bumi ataupun di udara.  Ia melibatkan serangan strategik, operasi dan serangan maritim.
+		</li>
+
+		<li>Peningkatan Kekuatan bagi menambahkan keupayaan di udara dan di darat yang melibatkan misi pengisian minyak di udara, pengawasan dan tinjauan, misi mengangkut, “electronik counter measure” dan operasi menyelamat kombat udara.
+		</li>
+		
+		<li>Ketahanan Kekuatan untuk melaksanakan operasi dengan jayanya. Ia melibatkan pertahanan pangkalan, sokongan logistik dan sokongan pangkalan bagi memberi perkhidmatan penting kepada organisasi dan anggota.
+		</li>
+	</ul>
+	<br />
+	<a href="#page2" class="ui-btn" data-transition="turn" data-direction="reverse">Sejarah</a>
+  
+  </div>
+  
+  <!--footer -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+		<ul>
+			<li><a href="#page2" data-icon="grid">Sejarah</a></li>
+			<li><a href="#" data-icon="star" class="ui-btn-active ui-state-persist">Peranan</a></li>
+			<li><a href="#page4" data-icon="gear">Direkrori</a></li>
+		</ul>
+	</div>
+  </div>
+
+</div>
+
+<!--Page 4 -->
+<div data-role="page" id="page4">
+	<!--header -->
+  <div data-role="header" data-position="fixed">
+	<h3>Direktori</h3>
+	
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+  <div data-role="popup" id="d1">
+	<a href="tel:+60197347511" class="ui-btn ui-icon-phone ui-btn-icon-notext ui-corner-all ui-btn-inline"> Telefon</a>
+	<a href="sms://+60197347511" class="ui-btn ui-icon-action ui-btn-icon-notext ui-corner-all ui-btn-inline">Hantar SMS</a>
+	<a href="mailto:ir.syam@gmail.com" class="ui-btn ui-icon-mail ui-btn-icon-notext ui-corner-all ui-btn-inline">Pesanan Emel</a>
+  </div>
+  
+	<h3>Bahagian Dasar</h3>
+	<ul data-role="listview" data-filter="true" data-filter-placeholder="Taipkan Nama">
+		<li><a href="#d1" data-rel="popup" data-transition="slideup">
+		<img src="gambar/syam.jpg" width="150" />
+		<h3>En. Norhisyam Dasuki</h3>
+		<p>CIAST</p></a>
+		</li>
+		<li>	
+		<img src="gambar/supyanphoto.jpg" width="150" />
+		<h3>Prof. Madya Dr. Supyan Hussin</h3>
+		<p>Mobile Learning Association of Malaysia / UKM</p>
+		</li>
+		<li>	
+		<img src="gambar/razali.bmp" width="150" />
+		<h3>Ir. Razali Hamzah</h3>
+		<p>Terato Tech Sdn Bhd</p>
+		</li>
+		<li>	
+		<img src="gambar/yahaya.jpg" width="150" />
+		<h3>Dr. Yahaya Abdullah</h3>
+		<p>KRU Academy</p>
+		</li>
+	</ul>
+
+  </div>
+  
+  <!--footer -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+		<ul>
+			<li><a href="#page2" data-icon="grid">Sejarah</a></li>
+			<li><a href="#page3" data-icon="star">Peranan</a></li>
+			<li><a href="#" data-icon="gear" class="ui-btn-active ui-state-persist">Direkrori</a></li>
+		</ul>
+	</div>
+  </div>
+
+</div>
+</body>
+</html>
+
